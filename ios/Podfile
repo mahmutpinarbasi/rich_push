@@ -36,13 +36,13 @@ end
 
 target 'NotificationServiceExtension' do
   use_frameworks!
-  pod "Netmera/NotificationServiceExtension", "3.14.10-WithoutDependency"
+  pod "Netmera/NotificationServiceExtension"
 
 end
 
 target 'NotificationContentExtension' do
   use_frameworks!
-  pod "Netmera/NotificationContentExtension", "3.14.10-WithoutDependency"
+  pod "Netmera/NotificationContentExtension"
 end
 
 

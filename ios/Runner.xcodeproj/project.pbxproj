@@ -15,7 +15,6 @@
 		1D3C90102923A526003889E8 /* NotificationContentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1D3C90022923A526003889E8 /* NotificationContentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1D3C901D2923A55B003889E8 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C901C2923A55B003889E8 /* NotificationService.swift */; };
 		1D3C90212923A55B003889E8 /* NotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1D3C901A2923A55B003889E8 /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		4A69AC427C5D127AF45E380E /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CFD1971FD6DC55E9B56D52 /* Pods_Runner.framework */; };
 		4B76427051E4B121233D6BE2 /* Pods_NotificationContentExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0341075F33A39E49565EF4DB /* Pods_NotificationContentExtension.framework */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
@@ -357,7 +356,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
-				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
 			);
