@@ -1,0 +1,44 @@
+PODS:
+  - Flutter (1.0.0)
+  - Netmera (3.14.10-WithoutDependency):
+    - Netmera/Core (= 3.14.10-WithoutDependency)
+    - Netmera/NetmeraWithAdId (= 3.14.10-WithoutDependency)
+  - Netmera/AdIdSupport (3.14.10-WithoutDependency)
+  - Netmera/Application (3.14.10-WithoutDependency):
+    - Netmera/Core
+  - Netmera/Core (3.14.10-WithoutDependency)
+  - Netmera/NetmeraWithAdId (3.14.10-WithoutDependency):
+    - Netmera/AdIdSupport
+    - Netmera/Application
+  - Netmera/NotificationContentExtension (3.14.10-WithoutDependency):
+    - Netmera/Core
+  - Netmera/NotificationServiceExtension (3.14.10-WithoutDependency):
+    - Netmera/Core
+  - netmera_flutter_sdk (2.0.3):
+    - Flutter
+    - Netmera (= 3.14.10-WithoutDependency)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - Netmera/NotificationContentExtension (= 3.14.10-WithoutDependency)
+  - Netmera/NotificationServiceExtension (= 3.14.10-WithoutDependency)
+  - netmera_flutter_sdk (from `.symlinks/plugins/netmera_flutter_sdk/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Netmera
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  netmera_flutter_sdk:
+    :path: ".symlinks/plugins/netmera_flutter_sdk/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  Netmera: bc77f9c5508471dac9e99ee7d33a25fd285bf9dd
+  netmera_flutter_sdk: 5682e9d86574f4e3555c3e02496fef7ee1c0e1fb
+
+PODFILE CHECKSUM: b734e20aa26d46b272e20a4be2c21a0db11c9518
+
+COCOAPODS: 1.11.3
